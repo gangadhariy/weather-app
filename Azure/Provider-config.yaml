@@ -1,7 +1,6 @@
 apiVersion: azure.upbound.io/v1beta1
 metadata:
   name: default
-  namespace: azure
 kind: ProviderConfig
 spec:
   credentials:
