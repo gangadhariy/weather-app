@@ -20,9 +20,7 @@ spec:
               forProvider:
                 adminUsername: adminuser
                 adminSshKey:
-                  - publicKey: ssh-rsa
-                      AAAAB3NzaC1yc2EAAAADAQABAAABAQC+wWK73dCr+jgQOAxNsHAnNNNMEMWOHYEccp6wJm2gotpr9katuF/ZAdou5AaW1C61slRkHRkpRRX9FA9CYBiitZgvCCz+3nWNN7l/Up54Zps/pHWGZLHNJZRYyAB6j5yVLMVHIHriY49d/GZTZVNB8GoJv9Gakwc/fuEZYYl4YDFiGMBP///TzlI4jhiJzjKnEvqPFki5p2ZRJqcbCiF4pJrxUQR/RXqVFQdbRLZgYfJ8xGB878RENq3yQ39d8dVOkq4edbkzwcUmwwwkYVPIoDGsYLaRHnG+To7FvMeyO7xDVQkMKzopTQV8AuKpyvpqu0a9pWOMaiCyDytO7GGN
-                      example@docs.crossplane.io
+                  - publicKey: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCyVbIWIV6yWrWkGJTcQ8p9k8QLdS3OFMzjrNxgEgolZl3jqhPACZXPbJrgnVcLxZits2kWAXQFhNXTkYFcuaLwLSaqJbffgQDwaTufG5DxcNWlpWrTGcR1etpCwzOV2nwYx8KPSH/yXudtcFQcuaApCZ8H8se4ywLu8sUykUfvU1PAVi3QrEvaELZebawCrFqNMKzd60aMfzsW45ateTHJjjn/ZthRD89H0X0niK/s30L++t9gxLv/Ec2bCFcLC8IaU6RNYEbKMzgPdQYyxizkn3Ojly1TP+nWhRV1sVxp42cSaoGKg5CSRFIr2d6HbcvTC80mYapJr6jmJ1jREFAvZqGc/1SUcmzTcp59MwAIiQO9Zo6MvsFzvHc/sZ/LvFt3Efcz9+0xeTla9Fwb+augzAe8su+eYyg7zgnejL7knJnq1HchLXdqN0KB0Aj7X5I4nO6O0IRI7sUJ7athoVW6N4rr0NJfEP4PL01Ml0on8K1P01dVdPcHevddhEZgIxlTV0YZDKIk9FL+Qam/B8wxRYRo2GErjgAT2oUCP+xG7RBe/hMiPuGt07gtRWlnRgV/FcdgnWEKZsjYlwBhU6l+QLkvTEsn5pjaS3M0rFV9cglic9NRNVLF38cjJGk9HEGMlbp/Mn8dF2mGBHWepBHOh4+jvsI1HX6Sa1zh/Any6w== clusterapi@k3s.com
                     username: adminuser
                 location: "West US"
                 osDisk:
