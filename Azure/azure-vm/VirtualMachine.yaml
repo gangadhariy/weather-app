@@ -2,5 +2,7 @@ apiVersion: compute.example.com/v1alpha1
 kind: VirtualMachine
 metadata:
   name: my-vm
+    annotations:
+    argocd.argoproj.io/sync-wave: "6"
 spec: 
   location: "US"
