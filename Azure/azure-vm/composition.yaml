@@ -3,7 +3,7 @@ kind: Composition
 metadata:
   name: crossplane-quickstart-vm-with-network
     annotations:
-    argocd.argoproj.io/sync-wave: "4"
+      argocd.argoproj.io/sync-wave: "4"
 spec:
   mode: Pipeline
   pipeline:
