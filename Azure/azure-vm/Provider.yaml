@@ -2,6 +2,8 @@ apiVersion: pkg.crossplane.io/v1
 kind: Provider
 metadata:
   name: provider-azure-compute
+  annotations:
+    argocd.argoproj.io/sync-wave: "1"
 spec:
   package: xpkg.upbound.io/upbound/provider-azure-compute:v1
 
@@ -10,5 +12,7 @@ apiVersion: pkg.crossplane.io/v1
 kind: Provider
 metadata:
   name: provider-azure-network
+    annotations:
+    argocd.argoproj.io/sync-wave: "0"
 spec:
   package: xpkg.upbound.io/upbound/provider-azure-network:v1
