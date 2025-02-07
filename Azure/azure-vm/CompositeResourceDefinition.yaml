@@ -3,7 +3,7 @@ kind: CompositeResourceDefinition
 metadata:
   name: virtualmachines.compute.example.com
   annotations:
-      argocd.argoproj.io/sync-wave: "0"
+    argocd.argoproj.io/hook: PreSync
 spec:
   group: compute.example.com
   names:
